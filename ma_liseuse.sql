@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 18 fév. 2020 à 08:38
+-- Généré le :  mar. 18 fév. 2020 à 12:22
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.2.18
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `ma_liseuse`
 --
+CREATE DATABASE IF NOT EXISTS `ma_liseuse` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `ma_liseuse`;
 
 -- --------------------------------------------------------
 
