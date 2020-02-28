@@ -2,10 +2,9 @@
 # This file is distributed under the same license as the WooCommerce Admin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Admin 0.25.1\n"
-"Report-Msgid-Bugs-To: "
-"https://wordpress.org/support/plugin/woocommerce-admin\n"
-"POT-Creation-Date: 2020-02-07 18:53:40+00:00\n"
+"Project-Id-Version: WooCommerce Admin 0.26.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-admin\n"
+"POT-Creation-Date: 2020-02-25 20:49:09+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -621,43 +620,43 @@ msgstr ""
 msgid "Industry."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:252
+#: src/API/OnboardingProfile.php:250
 msgid "Types of products sold."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:264
+#: src/API/OnboardingProfile.php:262
 msgid "Number of products to be added."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:278
+#: src/API/OnboardingProfile.php:276
 msgid "Other places the store is selling products."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:292
+#: src/API/OnboardingProfile.php:290
 msgid "Current annual revenue of the store."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:307
+#: src/API/OnboardingProfile.php:305
 msgid "Name of other platform used to sell."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:321
+#: src/API/OnboardingProfile.php:319
 msgid "Extra business extensions to install."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:333
+#: src/API/OnboardingProfile.php:331
 msgid "Selected store theme."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:341
+#: src/API/OnboardingProfile.php:339
 msgid "Whether or not the user opted to purchase items now or later."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:348
+#: src/API/OnboardingProfile.php:346
 msgid "Whether or not this store was setup for a client."
 msgstr ""
 
-#: src/API/OnboardingProfile.php:355
+#: src/API/OnboardingProfile.php:353
 msgid ""
 "Whether or not the store was connected to WooCommerce.com during the "
 "extension flow."
@@ -719,12 +718,12 @@ msgstr ""
 msgid "New Products"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:402
+#: src/API/OnboardingTasks.php:408
 msgid "Homepage"
 msgstr ""
 
-#: src/API/OnboardingTasks.php:423
-msgid "Homepage created successfully."
+#: src/API/OnboardingTasks.php:431
+msgid "Homepage created."
 msgstr ""
 
 #: src/API/OnboardingThemes.php:76
@@ -1626,7 +1625,7 @@ msgid "IP"
 msgstr ""
 
 #: src/API/Reports/Downloads/Stats/Controller.php:146
-#: src/Features/Analytics.php:124 src/Features/Onboarding.php:179
+#: src/Features/Analytics.php:124 src/Features/Onboarding.php:246
 #: src/ReportCSVEmail.php:40
 #: client/analytics/report/downloads/config.js:21
 #: client/analytics/report/downloads/table.js:169
@@ -2294,7 +2293,7 @@ msgid ""
 msgstr ""
 
 #: src/Features/Analytics.php:81
-#: client/layout/controller.js:76
+#: client/layout/controller.js:82
 msgid "Analytics"
 msgstr ""
 
@@ -2313,6 +2312,7 @@ msgstr ""
 #: src/Features/Analytics.php:136 src/ReportCSVEmail.php:42
 #: client/analytics/report/customers/table.js:253
 #: client/analytics/report/index.js:85
+#: client/layout/controller.js:71
 msgid "Customers"
 msgstr ""
 
@@ -2321,127 +2321,131 @@ msgstr ""
 msgid "Dashboard"
 msgstr ""
 
-#: src/Features/Onboarding.php:155
+#: src/Features/Onboarding.php:190
 msgid "Fashion, apparel, and accessories"
 msgstr ""
 
-#: src/Features/Onboarding.php:156
+#: src/Features/Onboarding.php:195
 msgid "Health and beauty"
 msgstr ""
 
-#: src/Features/Onboarding.php:157
+#: src/Features/Onboarding.php:200
 msgid "Art, music, and photography"
 msgstr ""
 
-#: src/Features/Onboarding.php:158
+#: src/Features/Onboarding.php:205
 msgid "Electronics and computers"
 msgstr ""
 
-#: src/Features/Onboarding.php:159
+#: src/Features/Onboarding.php:210
 msgid "Food and drink"
 msgstr ""
 
-#: src/Features/Onboarding.php:160
+#: src/Features/Onboarding.php:215
 msgid "Home, furniture, and garden"
 msgstr ""
 
-#: src/Features/Onboarding.php:161
+#: src/Features/Onboarding.php:220
+msgid "CBD and other hemp-derived products"
+msgstr ""
+
+#: src/Features/Onboarding.php:225
 #: client/dashboard/profile-wizard/steps/business-details.js:432
 msgid "Other"
 msgstr ""
 
-#: src/Features/Onboarding.php:175
+#: src/Features/Onboarding.php:242
 msgid "Physical products"
 msgstr ""
 
-#: src/Features/Onboarding.php:176
+#: src/Features/Onboarding.php:243
 msgid "Products you ship to customers."
 msgstr ""
 
-#: src/Features/Onboarding.php:180
+#: src/Features/Onboarding.php:247
 msgid "Virtual products that customers download."
 msgstr ""
 
-#: src/Features/Onboarding.php:183
+#: src/Features/Onboarding.php:250
 msgid "Subscriptions"
 msgstr ""
 
-#: src/Features/Onboarding.php:187
+#: src/Features/Onboarding.php:254
 msgid "Memberships"
 msgstr ""
 
-#: src/Features/Onboarding.php:191
+#: src/Features/Onboarding.php:258
 msgid "Composite Products"
 msgstr ""
 
-#: src/Features/Onboarding.php:195
+#: src/Features/Onboarding.php:262
 msgid "Bookings"
 msgstr ""
 
-#: src/Features/Onboarding.php:350
+#: src/Features/Onboarding.php:417
 #. translators: Amount of product per year (e.g. Bookings - $240.00 per year)
 msgid " — %s per year"
 msgstr ""
 
-#: src/Features/Onboarding.php:356
+#: src/Features/Onboarding.php:423
 #. translators: site currency symbol (used to show that the product costs
 #. money)
 msgid " — %s"
 msgstr ""
 
-#: src/Features/Onboarding.php:695 src/Features/Onboarding.php:783
+#: src/Features/Onboarding.php:762 src/Features/Onboarding.php:858
 msgid "New onboarding experience"
 msgstr ""
 
-#: src/Features/Onboarding.php:696
+#: src/Features/Onboarding.php:763
 msgid ""
 "If you want to try out the new WooCommerce onboarding experience, click the "
 "button below."
 msgstr ""
 
-#: src/Features/Onboarding.php:697 src/Features/Onboarding.php:762
-#: src/Features/Onboarding.php:768
+#: src/Features/Onboarding.php:764 src/Features/Onboarding.php:837
+#: src/Features/Onboarding.php:843
 msgid "Enable"
 msgstr ""
 
-#: src/Features/Onboarding.php:756
+#: src/Features/Onboarding.php:831
 msgid "WooCommerce Onboarding"
 msgstr ""
 
-#: src/Features/Onboarding.php:758
+#: src/Features/Onboarding.php:833
 msgid "Profile Setup Wizard"
 msgstr ""
 
-#: src/Features/Onboarding.php:759
+#: src/Features/Onboarding.php:834
 msgid ""
 "If you need to enable or disable the setup wizard again, please click on "
 "the button below."
 msgstr ""
 
-#: src/Features/Onboarding.php:761 src/Features/Onboarding.php:769
-#: src/Features/Onboarding.php:785
+#: src/Features/Onboarding.php:836 src/Features/Onboarding.php:844
+#: src/Features/Onboarding.php:860
 msgid "Disable"
 msgstr ""
 
-#: src/Features/Onboarding.php:765
+#: src/Features/Onboarding.php:840
 msgid "Task List"
 msgstr ""
 
-#: src/Features/Onboarding.php:766
+#: src/Features/Onboarding.php:841
 msgid ""
 "If you need to enable or disable the task list, please click on the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:773
+#: src/Features/Onboarding.php:848
 msgid "Calypso / WordPress.com"
 msgstr ""
 
-#: src/Features/Onboarding.php:775
+#: src/Features/Onboarding.php:850
 msgid "Quickly access the Jetpack connection flow in Calypso."
 msgstr ""
 
-#: src/Features/Onboarding.php:776 src/Features/Onboarding.php:780
+#: src/Features/Onboarding.php:851 src/Features/Onboarding.php:855
 #: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:193
 #: client/dashboard/task-list/tasks/payments/paypal.js:110
 #: client/dashboard/task-list/tasks/payments/square.js:101
@@ -2450,17 +2454,17 @@ msgstr ""
 msgid "Connect"
 msgstr ""
 
-#: src/Features/Onboarding.php:779
+#: src/Features/Onboarding.php:854
 msgid "Quickly access the WooCommerce.com connection flow in Calypso."
 msgstr ""
 
-#: src/Features/Onboarding.php:784
+#: src/Features/Onboarding.php:859
 msgid ""
 "To disable the new WooCommerce onboarding experience, click the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:831 src/Features/Onboarding.php:837
+#: src/Features/Onboarding.php:906 src/Features/Onboarding.php:912
 msgid "WooCommerce Helper was not able to connect to WooCommerce.com."
 msgstr ""
 
@@ -2578,6 +2582,21 @@ msgstr ""
 
 #: src/Notes/WC_Admin_Notes_Add_First_Product.php:52
 msgid "Add a product"
+msgstr ""
+
+#: src/Notes/WC_Admin_Notes_Deactivate_Plugin.php:38
+msgid "Deactivate old WooCommerce Admin version"
+msgstr ""
+
+#: src/Notes/WC_Admin_Notes_Deactivate_Plugin.php:39
+msgid ""
+"Your current version of WooCommerce Admin is outdated and a newer version "
+"is included with WooCommerce.  We recommend deactivating the plugin and "
+"using the stable version included with WooCommerce."
+msgstr ""
+
+#: src/Notes/WC_Admin_Notes_Deactivate_Plugin.php:47
+msgid "Deactivate"
 msgstr ""
 
 #: src/Notes/WC_Admin_Notes_Facebook_Extension.php:61
@@ -4099,27 +4118,27 @@ msgstr ""
 msgid "Jetpack + WooCommerce"
 msgstr ""
 
-#: client/dashboard/profile-wizard/index.js:105
+#: client/dashboard/profile-wizard/index.js:106
 msgid "Industry"
 msgstr ""
 
-#: client/dashboard/profile-wizard/index.js:111
+#: client/dashboard/profile-wizard/index.js:112
 msgid "Product Types"
 msgstr ""
 
-#: client/dashboard/profile-wizard/index.js:118
+#: client/dashboard/profile-wizard/index.js:119
 msgid "Business Details"
 msgstr ""
 
-#: client/dashboard/profile-wizard/index.js:125
+#: client/dashboard/profile-wizard/index.js:126
 msgid "Theme"
 msgstr ""
 
-#: client/dashboard/profile-wizard/index.js:52
+#: client/dashboard/profile-wizard/index.js:53
 msgid "There was a problem finishing the profile wizard."
 msgstr ""
 
-#: client/dashboard/profile-wizard/index.js:98
+#: client/dashboard/profile-wizard/index.js:99
 msgid "Store Details"
 msgstr ""
 
@@ -4241,31 +4260,31 @@ msgid "Which platform is the store using?"
 msgstr ""
 
 #: client/dashboard/profile-wizard/steps/business-details.js:502
-#: client/dashboard/profile-wizard/steps/industry.js:117
+#: client/dashboard/profile-wizard/steps/industry.js:158
 #: client/dashboard/profile-wizard/steps/product-types.js:145
 #: client/dashboard/profile-wizard/steps/store-details.js:168
 #: client/dashboard/profile-wizard/steps/usage-modal.js:108
-#: client/dashboard/task-list/index.js:231
+#: client/dashboard/task-list/index.js:246
 #: client/dashboard/task-list/tasks/payments/klarna.js:68
 #: client/dashboard/task-list/tasks/steps/location.js:88
 msgid "Continue"
 msgstr ""
 
-#: client/dashboard/profile-wizard/steps/industry.js:55
-msgid "There was a problem updating your industries."
-msgstr ""
-
-#: client/dashboard/profile-wizard/steps/industry.js:63
-msgid "Please select at least one industry"
-msgstr ""
-
-#: client/dashboard/profile-wizard/steps/industry.js:95
+#: client/dashboard/profile-wizard/steps/industry.js:122
 msgid "In which industry does the store operate?"
 msgstr ""
 
-#: client/dashboard/profile-wizard/steps/industry.js:98
+#: client/dashboard/profile-wizard/steps/industry.js:125
 #: client/dashboard/profile-wizard/steps/product-types.js:98
 msgid "Choose any that apply"
+msgstr ""
+
+#: client/dashboard/profile-wizard/steps/industry.js:64
+msgid "There was a problem updating your industries."
+msgstr ""
+
+#: client/dashboard/profile-wizard/steps/industry.js:72
+msgid "Please select at least one industry"
 msgstr ""
 
 #: client/dashboard/profile-wizard/steps/plugins.js:112
@@ -4533,7 +4552,7 @@ msgid "Move Down"
 msgstr ""
 
 #: client/dashboard/section-controls.js:63
-#: client/dashboard/task-list/index.js:165
+#: client/dashboard/task-list/index.js:180
 msgid "Remove block"
 msgstr ""
 
@@ -4553,45 +4572,45 @@ msgstr ""
 msgid "Display Stats:"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:143
+#: client/dashboard/task-list/index.js:158
 msgid "Is this card useful?"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:146
+#: client/dashboard/task-list/index.js:161
 msgid "No, hide it"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:150
+#: client/dashboard/task-list/index.js:165
 msgid "Yes, keep it"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:161
+#: client/dashboard/task-list/index.js:176
 msgid "Task List Options"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:166
+#: client/dashboard/task-list/index.js:181
 msgid "Remove this card"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:209
+#: client/dashboard/task-list/index.js:224
 msgid "Woo hoo - you're almost there!"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:218
+#: client/dashboard/task-list/index.js:233
 msgid ""
 "Based on the information you provided we’ve prepared some final set up "
 "tasks for you to perform."
 msgstr ""
 
-#: client/dashboard/task-list/index.js:224
+#: client/dashboard/task-list/index.js:239
 msgid "Once complete your store will be ready for launch - exciting!"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:267
+#: client/dashboard/task-list/index.js:282
 msgid "Set up your store and start selling"
 msgstr ""
 
-#: client/dashboard/task-list/index.js:268
+#: client/dashboard/task-list/index.js:283
 msgid ""
 "Below you’ll find a list of the most important steps to get your store up "
 "and running."
@@ -4661,41 +4680,45 @@ msgstr ""
 msgid "All demo products have been imported."
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:226
+#: client/dashboard/task-list/tasks/appearance.js:175
+msgid "Customize"
+msgstr ""
+
+#: client/dashboard/task-list/tasks/appearance.js:241
 msgid "Import demo products"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:227
+#: client/dashboard/task-list/tasks/appearance.js:242
 msgid ""
 "We’ll add some products that will make it easier to see what your store "
 "looks like"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:234
+#: client/dashboard/task-list/tasks/appearance.js:249
 msgid "Import products"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:245
+#: client/dashboard/task-list/tasks/appearance.js:260
 msgid "Create a custom homepage"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:246
+#: client/dashboard/task-list/tasks/appearance.js:261
 msgid "Create a new homepage and customize it to suit your needs"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:253
+#: client/dashboard/task-list/tasks/appearance.js:268
 msgid "Create homepage"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:269
+#: client/dashboard/task-list/tasks/appearance.js:284
 msgid "Upload a logo"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:270
+#: client/dashboard/task-list/tasks/appearance.js:285
 msgid "Ensure your store is on-brand by adding your logo"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:283
+#: client/dashboard/task-list/tasks/appearance.js:298
 #: client/dashboard/task-list/tasks/payments/index.js:363
 #: client/dashboard/task-list/tasks/payments/paypal.js:205
 #: client/dashboard/task-list/tasks/payments/stripe.js:296
@@ -4703,26 +4726,26 @@ msgstr ""
 msgid "Proceed"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:286
+#: client/dashboard/task-list/tasks/appearance.js:301
 #: client/dashboard/task-list/tasks/payments/paypal.js:213
 #: client/dashboard/task-list/tasks/payments/square.js:109
 #: client/dashboard/task-list/tasks/payments/stripe.js:304
 msgid "Skip"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:294
+#: client/dashboard/task-list/tasks/appearance.js:309
 msgid "Set a store notice"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:295
+#: client/dashboard/task-list/tasks/appearance.js:310
 msgid "Optionally display a prominent notice across all pages of your store"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:303
+#: client/dashboard/task-list/tasks/appearance.js:318
 msgid "Store notice text"
 msgstr ""
 
-#: client/dashboard/task-list/tasks/appearance.js:308
+#: client/dashboard/task-list/tasks/appearance.js:323
 #: client/dashboard/task-list/tasks/shipping/index.js:203
 msgid "Complete task"
 msgstr ""
@@ -5393,11 +5416,11 @@ msgstr ""
 msgid "There was an error activating %s. Please try again."
 msgstr ""
 
-#: client/wp-admin-scripts/onboarding-homepage-notice/index.js:79
+#: client/wp-admin-scripts/onboarding-homepage-notice/index.js:76
 msgid "🏠 Nice work creating your store's homepage!"
 msgstr ""
 
-#: client/wp-admin-scripts/onboarding-homepage-notice/index.js:85
+#: client/wp-admin-scripts/onboarding-homepage-notice/index.js:82
 #: client/wp-admin-scripts/onboarding-product-notice/index.js:25
 #: client/wp-admin-scripts/onboarding-tax-notice/index.js:49
 msgid "Continue setup."
